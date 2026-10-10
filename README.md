@@ -58,11 +58,7 @@ npm install
 ```
 
 ### 3. Environment Variables
-Copy `.env.example` to `.env`:
-```bash
-cp .env.example .env
-```
-Add your `GEMINI_API_KEY` (automatically injected in Google AI Studio). Note that even if `GEMINI_API_KEY` is not provided, the system executes gracefully using the local deterministic engine.
+ Note that even if `GEMINI_API_KEY` is not provided, the system executes gracefully using the local deterministic engine.
 
 ### 4. Running the Development Server
 ```bash
